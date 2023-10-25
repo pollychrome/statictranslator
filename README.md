@@ -9,7 +9,7 @@ Certainly! Here's the README content in a format that's easy to copy and paste:
 ## Introduction
 This utility was created to help developers working with Flutter and the `easy_localization` package efficiently manage and translate their localization files. The primary goal is to make the process of translating your `en.json` (English localization file) into various other languages seamless and straightforward.
 
-StaticTranslator uses OpenAI's GPT-4 model to translate text, ensuring natural and contextually accurate translations for your fitness app. This tool currently supports multiple languages, including Brazilian Portuguese, Spanish, Hindi, German, Arabic, French, Turkish, Italian, Persian, and Polish. Languages can easily be added or removed by updating the array. 
+StaticTranslator uses OpenAI's GPT-4 model to translate text. This tool currently supports multiple languages, including Brazilian Portuguese, Spanish, Hindi, German, Arabic, French, Turkish, Italian, Persian, and Polish. Languages can easily be added or removed by updating the array. 
 
 ## Features
 - **Batch Translation**: Handles large localization files by splitting them into manageable batches.
