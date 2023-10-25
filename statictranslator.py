@@ -34,7 +34,7 @@ def estimate_token_count(text):
 
 def translate_text_with_openai(text, target_language, openai_api_key, max_tokens=3000):
     openai.api_key = openai_api_key
-    prompt = f"Translate from English to {target_language}: '{text}'. This is for a fitness app. Keep the format similar to the source file."
+    prompt = f"Translate the following English JSON content to {target_language}, maintaining the original key-value structure. Only translate the values, keeping the keys in English: {text}"
 
     try:
         response = openai.Completion.create(
