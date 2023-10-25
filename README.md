@@ -1,8 +1,3 @@
-# statictranslator
-
-Certainly! Here's the README content in a format that's easy to copy and paste:
-
----
 
 # StaticTranslator
 
